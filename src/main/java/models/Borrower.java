@@ -49,4 +49,8 @@ public class Borrower {
     public void addBookToItemsBorrowed(Book book) {
         this.itemsBorrowed.add(book);
     }
+
+    public void borrows(Book book){
+        this.itemsBorrowed.add(book);
+    }
 }
