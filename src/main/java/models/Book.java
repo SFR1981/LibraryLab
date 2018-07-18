@@ -69,8 +69,12 @@ public class Book {
         this.currentBorrower = borrower;
     }
 
+
     public void isBorrowed(Borrower borrower){
         this.onLoan = true;
         this.currentBorrower = borrower;
     }
+
+
+
 }
