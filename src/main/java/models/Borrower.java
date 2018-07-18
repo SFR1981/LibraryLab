@@ -45,4 +45,8 @@ public class Borrower {
     public void setItemsBorrowed(Set<Book> itemsBorrowed) {
         this.itemsBorrowed = itemsBorrowed;
     }
+
+    public void addBookToItemsBorrowed(Book book) {
+        this.itemsBorrowed.add(book);
+    }
 }
