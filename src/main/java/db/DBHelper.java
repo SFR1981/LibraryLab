@@ -1,6 +1,8 @@
 package db;
 
 
+import models.Book;
+import models.Borrower;
 import org.hibernate.*;
 import org.hibernate.criterion.Restrictions;
 
@@ -120,5 +122,8 @@ public class DBHelper {
             session.close();
         }
     }
+
+
+
 
 }
