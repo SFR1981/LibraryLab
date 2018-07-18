@@ -25,7 +25,7 @@ public class Book {
     @GeneratedValue
     @Column(name = "id")
     public int getId(){
-        return id;git
+        return id;
     }
 
     public void setId(int id) {
