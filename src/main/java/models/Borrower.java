@@ -51,6 +51,6 @@ public class Borrower {
     }
 
     public void borrows(Book book){
-        this.itemsBorrowed.add(book);
+        this.addBookToItemsBorrowed(book);
     }
 }
